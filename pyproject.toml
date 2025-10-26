@@ -1,0 +1,10 @@
+[project]
+name = "agentforge"
+version = "0.1.0"
+description = "Create agents, tools, toolkit, models dynamically based on configuration using Rest API's "
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.120.0",
+    "uvicorn>=0.38.0",
+]
